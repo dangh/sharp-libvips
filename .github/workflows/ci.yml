@@ -61,7 +61,7 @@ jobs:
         with:
           merge-multiple: true
       - name: Populate npm workspace
-        run: ./populate-npm-workspace.sh linux-x64
+        run: ./populate-npm-workspace.sh
       - name: Create npm workspace tarball
         run: tar -vcaf npm-workspace.tar.xz -C npm .
       - name: Generate release notes
