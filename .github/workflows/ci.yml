@@ -11,7 +11,7 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-      - name: Check latest versions12
+      - name: Check latest versions123
         run: ./check-latest-versions.sh
   build:
     permissions:
