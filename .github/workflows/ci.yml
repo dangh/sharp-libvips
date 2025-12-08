@@ -74,4 +74,4 @@ jobs:
           bodyFile: release-notes.md
           prerelease: true
           allowUpdates: true
-          name: tip
+          tag: tip
